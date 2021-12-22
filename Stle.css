@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(253, 192, 192, 0.1);
+}
+
+.Contaenir {
+  width: 1600px;
+  height: 800px;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (max-width: 375px) {
+  .Contaenir {
+    width: 400px;
+    font-size: 55%;
+  }
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  height: 100px;
+  gap: 590px;
+}
+@media (max-width: 375px) {
+  .nav {
+    width: 400px;
+    font-size: 55%;
+    gap: 150px;
+  }
+}
+
+.ball {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  height: 60px;
+  width: 100px;
+  text-align: center;
+  border-radius: 10px;
+  background: rgb(1, 109, 251);
+  color: white;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 5px 10px rgba(57, 3, 253, 0.746);
+}
+
+.Time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 100px;
+  text-align: center;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  background: rgb(1, 109, 251);
+  box-shadow: 0 5px 10px rgba(57, 3, 253, 0.746);
+  color: white;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  height: 300px;
+  padding: 0 50px;
+}
+.cont1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  height: 200px;
+  width: 800px;
+  text-align: center;
+  border-radius: 10px;
+  background: rgba(52, 172, 36, 0.5);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 5px 10px rgb(52, 172, 36);
+  font-size: 100px;
+}
+@media (max-width: 375px) {
+  .cont1 {
+    width: 350px;
+  }
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card input {
+  height: 50px;
+  width: 500px;
+  text-align: center;
+  background: rgb(255, 255, 255);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 5px 10px rgb(163, 162, 162);
+  font-size: 50px;
+  border: none;
+}
+@media (max-width: 375px) {
+  .card input {
+    width: 350px;
+    border-radius: 10px;
+    font-size: 18px;
+  }
+}
+.card button {
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  background: rgb(96, 206, 250);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 5px 10px rgb(96, 206, 250);
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+}
+@media (max-width: 375px) {
+  .card button {
+    border-radius: 10px;
+
+    width: 350px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 375px) {
+  .card {
+    width: 400px;
+    flex-direction: column;
+  }
+}
